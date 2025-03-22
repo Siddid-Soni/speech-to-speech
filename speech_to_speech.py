@@ -582,6 +582,6 @@ def interactive_voice_assistant(api_key=None):
 # Run the voice assistant if executed directly
 if __name__ == "__main__":
     # Provide your API key or set it as an environment variable
-    api_key = "AIzaSyAH5rUMI1dk_90jNNUA31Df9VS-QBZC7iw"  # or "your-api-key-here"
+    api_key = "" # or "your-api-key-here"
     
     interactive_voice_assistant(api_key) 
