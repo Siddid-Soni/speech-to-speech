@@ -20,7 +20,7 @@ voice = 'af_heart'  # Choose your preferred voice
 
 # Set up Agno agent with streaming capability
 agent = Agent(
-    model=Gemini(id="gemini-2.0-flash", api_key="AIzaSyAH5rUMI1dk_90jNNUA31Df9VS-QBZC7iw"),
+    model=Gemini(id="gemini-2.0-flash", api_key=""),
     description="You are a voice-assistant model",
     instructions="include proper punctuations for good pronunciation and do not use any markdown or symbols",
 )
